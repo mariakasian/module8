@@ -1,15 +1,13 @@
 package shapes;
 
 abstract class Shape {
-    private String name;
+    public String name;
 
     public Shape(String name) {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
+    abstract String getName();
 
     public void printName() {
         System.out.println("Фігура: " + getName());

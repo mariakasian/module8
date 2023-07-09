@@ -38,4 +38,9 @@ class Trapezoid extends Shape implements ShapePerimeter, ShapeSquare {
         s = Math.ceil(((getSideUp() + getSideDown()) * h / 2) * 100) / 100;
         return s;
     }
+
+    @Override
+    String getName() {
+        return "Трапеція";
+    }
 }

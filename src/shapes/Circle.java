@@ -25,4 +25,9 @@ class Circle extends Shape implements ShapePerimeter, ShapeSquare {
         s = Math.ceil(Math.PI * getRadius() * getRadius() * 100) / 100;
         return s;
     }
+
+    @Override
+    String getName() {
+        return "Круг";
+    }
 }

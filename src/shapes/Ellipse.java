@@ -32,4 +32,9 @@ class Ellipse extends Shape implements ShapePerimeter, ShapeSquare {
         s = Math.ceil(Math.PI * getRadiusBig() * getRadiusSmall() * 100) / 100;
         return s;
     }
+
+    @Override
+    String getName() {
+        return "Еліпс";
+    }
 }

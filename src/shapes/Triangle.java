@@ -38,4 +38,9 @@ class Triangle extends Shape implements ShapePerimeter, ShapeSquare {
         s = Math.ceil(Math.sqrt(d * (d - getSideA()) * (d - getSideB()) * (d - getSideC())) * 100) / 100;
         return s;
     }
+
+    @Override
+    String getName() {
+        return "Трикутник";
+    }
 }

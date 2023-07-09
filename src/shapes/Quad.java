@@ -25,4 +25,9 @@ class Quad extends Shape implements ShapePerimeter, ShapeSquare {
         s = Math.ceil(getSide() * getSide() * 100) / 100;
         return s;
     }
+
+    @Override
+    String getName() {
+        return "Квадрат";
+    }
 }
