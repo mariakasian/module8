@@ -1,7 +1,7 @@
 package shapes;
 
 class ShapePrinter {
-    public ShapePrinter(Shape shape) {
+    public static void printName(Shape shape) {
         shape.printName();
     }
 }
